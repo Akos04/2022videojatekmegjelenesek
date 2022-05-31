@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>2022 játékok</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li1>2022 megjelenések</li1>
+            <li><a href="index.html"> Tavasz</a></li>
+            <li><a href="second.html"> Nyár</a></li>
+            <li><a href="third.html"> Ősz</a></li>
+            <li><a href="fourth.html"> Tél</a></li>
+            <li><a class="active" href="fifth.html"> Kedvenceim</a></li>
+        </ul>
+    </nav>
+    <h1>Általam legjobban várt játékok idén</h1>
+    <input type="text" placeholder="Keresés"><button onclick="Alert()">Ok</button><br>
+    <script>
+        function Alert() {
+        alert("Ez a funkció jelenleg nem működik");
+        }
+        function Prompt() {
+        let jateknev = prompt("Melyik játék leírása jelenjen meg az alábbi kettő közül?");
+        var elso = document.getElementById("Forever Ago");
+        var masodik = document.getElementById("Somerville");
+        if(jateknev == elso.id)
+        {
+            document.getElementById("Forever Ago").innerHTML = "A <a href='https://forever-ago.com'><i>Forever Ago</i></a> még 2020-ban lett bejelentve 2021-es megjelenéssel egy új, kis csapattól. Azóta a megjelenés átcsúszott 2022-re, pontos dátumot sajnos nem tudunk."
+        }
+        if(jateknev == masodik.id)
+        {
+            document.getElementById("Somerville").innerHTML = "A <a href='https://jumpship.co.uk'><i>Somerville</i></a> a Jumpship nevű indie stúdió első játéka lesz. Többször is szerepelt az Xbox közvetítéseiben, viszont pontos megjelenési dátumot itt sem lehet tudni.</a></p>"
+        }
+        }
+    </script>
+    <article>
+        <h2>S.T.A.L.K.E.R. 2 (2022 december 8)</h2>
+        <p>A <a href="https://stalker2.com"><i>S.T.A.L.K.E.R. 2: Heart of Chornobyl</i></a> egy belső nézetű lövöldözős játék. Valójában ez a rész a sorozat negyedik darabja lesz. Az utolsó rész, a <i>S.T.A.L.K.E.R. Call of Pripyat</i>, már több mint 13 éve jelent meg, így a rajongók okkal lehetnek izgatottak. A játék az új Unreal Engine 5-ön fog futni. Eredetileg Április 28-án kellett volna megjelenjen, ez azonban el lett tolva December 8-ig, viszont kérdéses hogy ezt tudják-e tartani az ukrán fejlesztők, ismerve az ottani szituációt.</p>
+        <iframe width="465" height="285" src="https://www.youtube.com/embed/SjDMwsbaSd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    </article>
+    <hr>
+    <aside>
+        <h4>Űrlap</h4>
+        <p>Mi az a 4 játék amit a legjobban vársz idén?</p>
+    </aside>
+    <form>
+        <fieldset>
+          <legend>Űrlap</legend>
+          <label for="elso">1.:</label>
+          <input type="text" id="elso" name="elso"><br><br>
+          <label for="masodik">2.:</label>
+          <input type="text" id="masodik" name="masodik"><br><br>
+          <label for="harmadik">3.:</label>
+          <input type="email" id="harmadik" name="harmadik"><br><br>
+          <label for="negyedik">4.:</label>
+          <input type="text" id="negyedik" name="negyedik"><br><br>
+          <label for="datum">Születési dátum:</label>
+          <input type="date" id="datum" name="datum"><br><br>
+          <label for="hatodik">Gomb</label>
+          <input type="checkbox" id="hatodik" name="hatodik"><br><br>
+          <label for="hetedik">Gomb</label>
+          <input type="radio" id="hetedik" name="hetedik"><br><br>
+          <label for="nyolcadik">Idő</label>
+          <input type="time" id="nyolcadik" name="nyolcadik"><br><br>
+          <input type="submit" value="Beküldés">
+        </fieldset>
+    </form>
+    <main>
+        <h1>További játékok</h1>
+        <button onclick="Prompt()">Leírás megjelenítése</button>
+        <article>
+          <h2>Forever Ago</h2>
+          <iframe width="465" height="285" src="https://www.youtube.com/embed/1fwymo5q8eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+          <p id="Forever Ago"></p>
+        </article>
+      
+        <article>
+          <h2>Somerville</h2>
+          <iframe width="465" height="285" src="https://www.youtube.com/embed/jcjnHHxHV3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+          <p id="Somerville"></p>
+        </article>
+    </main>
+    <section>
+        <h2>Képek</h2>
+        <h3><b>S.T.A.L.K.E.R. 2</b></h3>
+        <img src="stalker21.jpg" alt="somerville" style="width:50%"><img src="stalker22.jpg" alt="somerville" style="width:50%">
+        <h3><b>Forever Ago</b></h3>
+        <img src="foreverago1.jpg" alt="forever-ago" style="width:50%"><img src="foreverago2.jpg" alt="forever-ago" style="width:50%">
+        <h3><b>Somerville</b></h3>
+        <img src="somerville1.jpg" alt="somerville" style="width:50%"><img src="somerville2.jpg" alt="somerville" style="width:50%">
+    </section>
+    <figure>
+        <img src="stalker2vsoriginal2.webp" alt="stalker" style="width:50%">
+        <figcaption>Felül: <i>S.T.A.L.K.E.R. Clear Sky</i>, alul: <i>S.T.A.L.K.E.R. 2</i></figcaption>
+    </figure>
+    <footer>
+        <script>
+            function Confirm() {
+            if(confirm)
+            {
+                if (window.confirm("Biztosan akarja hagyni ezt az oldalt?"))
+                {
+                    window.location.href = 'https://www.thegamer.com/video-game-release-dates-2022/#march-2022-games';
+                }
+                else
+                {
+    
+                }
+            }
+        }
+    </script>
+    <button onclick="Confirm()">Forrás</button>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+    /*TODO*/
+    background-image: linear-gradient(to right, lightgreen, lightblue);
+    /*Dark Mode: darkblue, purple*/
+    /*TODO*/
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.responsive{
+    width: 25%;
+    height: auto;
+}
+
+.btn:active{
+    background-image: linear-gradient(to right, darkblue, purple);
+}
+
+iframe{
+    border-style: none;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+}
+
+td{
+    text-align: center;
+    font-style: oblique;
+    vertical-align: top;
+}
+
+nav {
+    width:100%;
+    background-image: linear-gradient(to left, rgb(160, 202, 216), rgb(143, 224, 143));
+    overflow: auto;
+    border-radius: 5px;
+    background: blur(40px);
+}
+
+h1{
+    text-align: center;
+}
+/*Ezek kellenek a menüsávhoz - START*/
+ul {
+    padding:0cm;
+    list-style:none;
+    color:blue;
+}
+
+figure{
+    text-align: center;
+}
+
+li {
+    float:left;
+}
+
+li a:hover {
+    background-image: linear-gradient(to left, rgb(180, 221, 205), rgb(143, 224, 143));
+    border-radius: 2px;
+}
+
+nav a {
+    width:100px;
+    display:block;
+    padding:15px 10px;
+    text-decoration: none;
+    font-family:Arial;
+    color:rgb(46, 46, 46);
+    text-align:center;
+}
+
+li1{
+    float:left;
+    color:rgb(46, 46, 46);
+    padding-left: 1cm;
+    padding-right: 1cm;
+    text-align: center;
+    font-size: 20pt;
+    font-style: bold;
+}
+/*Ezek kellenek a menüsávhoz - VÉGE*/
+
+p1{
+    position: relative;
+    left: 0cm;
+    border-bottom: 0cm;
+    font-size: 9pt;
+}
+
+input{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgb(180, 221, 205), rgb(143, 224, 143));
+    border-style: dotted;
+}
+
+button{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgb(180, 221, 205), rgb(143, 224, 143));
+    border-style: dotted;
+}
+
+.active{
+    background-image:linear-gradient(to right, lightblue, lightgreen);
+}
